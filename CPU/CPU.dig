@@ -22,13 +22,7 @@
       </romList>
     </entry>
   </attributes>
-  <visualElements>
-    <visualElement>
-      <elementName>cpu_ram_256 _dbg.dig</elementName>
-      <elementAttributes/>
-      <pos x="420" y="-4360"/>
-    </visualElement>
-  </visualElements>
+  <visualElements/>
   <wires/>
   <measurementOrdering/>
 </circuit>
