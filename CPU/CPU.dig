@@ -3,6 +3,10 @@
   <version>2</version>
   <attributes>
     <entry>
+      <string>shapeType</string>
+      <shapeType>DIL</shapeType>
+    </entry>
+    <entry>
       <string>backgroundColor</string>
       <awt-color>
         <red>204</red>
@@ -13,7 +17,7 @@
     </entry>
     <entry>
       <string>Label</string>
-      <string>shl</string>
+      <string>Clk</string>
     </entry>
     <entry>
       <string>romContent</string>
