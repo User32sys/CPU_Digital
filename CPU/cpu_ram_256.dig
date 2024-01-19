@@ -2837,6 +2837,20 @@
       </elementAttributes>
       <pos x="220" y="140"/>
     </visualElement>
+    <visualElement>
+      <elementName>Driver</elementName>
+      <elementAttributes>
+        <entry>
+          <string>flipSelPos</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>8</int>
+        </entry>
+      </elementAttributes>
+      <pos x="-420" y="20"/>
+    </visualElement>
   </visualElements>
   <wires>
     <wire>
@@ -3781,6 +3795,10 @@
     </wire>
     <wire>
       <p1 x="-480" y="20"/>
+      <p2 x="-440" y="20"/>
+    </wire>
+    <wire>
+      <p1 x="-400" y="20"/>
       <p2 x="580" y="20"/>
     </wire>
     <wire>
@@ -4716,6 +4734,10 @@
       <p2 x="3680" y="5160"/>
     </wire>
     <wire>
+      <p1 x="-420" y="40"/>
+      <p2 x="-260" y="40"/>
+    </wire>
+    <wire>
       <p1 x="2500" y="40"/>
       <p2 x="2540" y="40"/>
     </wire>
@@ -5405,6 +5427,10 @@
     </wire>
     <wire>
       <p1 x="-300" y="-60"/>
+      <p2 x="-260" y="-60"/>
+    </wire>
+    <wire>
+      <p1 x="-260" y="-60"/>
       <p2 x="520" y="-60"/>
     </wire>
     <wire>
@@ -13694,6 +13720,10 @@
     <wire>
       <p1 x="3840" y="3560"/>
       <p2 x="3840" y="3920"/>
+    </wire>
+    <wire>
+      <p1 x="-260" y="-60"/>
+      <p2 x="-260" y="40"/>
     </wire>
     <wire>
       <p1 x="2820" y="-140"/>
