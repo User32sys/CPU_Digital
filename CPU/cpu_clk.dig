@@ -97,11 +97,6 @@
       <pos x="860" y="300"/>
     </visualElement>
     <visualElement>
-      <elementName>Data</elementName>
-      <elementAttributes/>
-      <pos x="600" y="520"/>
-    </visualElement>
-    <visualElement>
       <elementName>In</elementName>
       <elementAttributes>
         <entry>
