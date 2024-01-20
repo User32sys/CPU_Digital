@@ -21,7 +21,7 @@
     </entry>
     <entry>
       <string>Label</string>
-      <string>Reg</string>
+      <string>RAM_256</string>
     </entry>
     <entry>
       <string>romContent</string>
@@ -31,7 +31,7 @@
     </entry>
     <entry>
       <string>Width</string>
-      <int>4</int>
+      <int>6</int>
     </entry>
   </attributes>
   <visualElements>
@@ -178,6 +178,10 @@
       <elementName>Out</elementName>
       <elementAttributes>
         <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
           <string>Label</string>
           <string>O</string>
         </entry>
@@ -189,10 +193,6 @@
           <string>intFormat</string>
           <intFormat>bin</intFormat>
         </entry>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="2"/>
-        </entry>
       </elementAttributes>
       <pos x="-340" y="180"/>
     </visualElement>
@@ -200,12 +200,12 @@
       <elementName>Driver</elementName>
       <elementAttributes>
         <entry>
-          <string>Bits</string>
-          <int>8</int>
-        </entry>
-        <entry>
           <string>rotation</string>
           <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>8</int>
         </entry>
       </elementAttributes>
       <pos x="-220" y="180"/>
@@ -244,20 +244,20 @@
       <elementName>Splitter</elementName>
       <elementAttributes>
         <entry>
-          <string>Input Splitting</string>
-          <string>4</string>
-        </entry>
-        <entry>
           <string>splitterSpreading</string>
           <int>2</int>
         </entry>
         <entry>
-          <string>Output Splitting</string>
-          <string>1,1,1,1</string>
-        </entry>
-        <entry>
           <string>rotation</string>
           <rotation rotation="3"/>
+        </entry>
+        <entry>
+          <string>Input Splitting</string>
+          <string>4</string>
+        </entry>
+        <entry>
+          <string>Output Splitting</string>
+          <string>1,1,1,1</string>
         </entry>
       </elementAttributes>
       <pos x="3320" y="-420"/>
@@ -271,12 +271,12 @@
       <elementName>Splitter</elementName>
       <elementAttributes>
         <entry>
-          <string>Input Splitting</string>
-          <string>4</string>
-        </entry>
-        <entry>
           <string>splitterSpreading</string>
           <int>2</int>
+        </entry>
+        <entry>
+          <string>Input Splitting</string>
+          <string>4</string>
         </entry>
         <entry>
           <string>Output Splitting</string>

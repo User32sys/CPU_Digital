@@ -49,12 +49,12 @@
           <string>I</string>
         </entry>
         <entry>
-          <string>intFormat</string>
-          <intFormat>bin</intFormat>
-        </entry>
-        <entry>
           <string>Bits</string>
           <int>8</int>
+        </entry>
+        <entry>
+          <string>intFormat</string>
+          <intFormat>bin</intFormat>
         </entry>
       </elementAttributes>
       <pos x="380" y="320"/>
@@ -67,12 +67,12 @@
           <string>O</string>
         </entry>
         <entry>
-          <string>intFormat</string>
-          <intFormat>bin</intFormat>
-        </entry>
-        <entry>
           <string>Bits</string>
           <int>8</int>
+        </entry>
+        <entry>
+          <string>intFormat</string>
+          <intFormat>bin</intFormat>
         </entry>
       </elementAttributes>
       <pos x="980" y="400"/>
@@ -81,6 +81,10 @@
       <elementName>In</elementName>
       <elementAttributes>
         <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+        <entry>
           <string>Label</string>
           <string>S</string>
         </entry>
@@ -88,12 +92,8 @@
           <string>intFormat</string>
           <intFormat>bin</intFormat>
         </entry>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="1"/>
-        </entry>
       </elementAttributes>
-      <pos x="480" y="520"/>
+      <pos x="460" y="520"/>
     </visualElement>
     <visualElement>
       <elementName>In</elementName>
@@ -128,20 +128,36 @@
       <p2 x="740" y="400"/>
     </wire>
     <wire>
-      <p1 x="600" y="360"/>
-      <p2 x="740" y="360"/>
+      <p1 x="480" y="400"/>
+      <p2 x="500" y="400"/>
     </wire>
     <wire>
-      <p1 x="480" y="360"/>
+      <p1 x="460" y="360"/>
       <p2 x="500" y="360"/>
     </wire>
     <wire>
-      <p1 x="480" y="360"/>
-      <p2 x="480" y="520"/>
+      <p1 x="660" y="360"/>
+      <p2 x="740" y="360"/>
+    </wire>
+    <wire>
+      <p1 x="480" y="460"/>
+      <p2 x="660" y="460"/>
     </wire>
     <wire>
       <p1 x="720" y="400"/>
       <p2 x="720" y="520"/>
+    </wire>
+    <wire>
+      <p1 x="480" y="400"/>
+      <p2 x="480" y="460"/>
+    </wire>
+    <wire>
+      <p1 x="660" y="360"/>
+      <p2 x="660" y="460"/>
+    </wire>
+    <wire>
+      <p1 x="460" y="360"/>
+      <p2 x="460" y="520"/>
     </wire>
   </wires>
   <measurementOrdering/>
