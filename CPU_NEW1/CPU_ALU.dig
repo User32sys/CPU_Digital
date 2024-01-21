@@ -21,7 +21,7 @@
     </entry>
     <entry>
       <string>Label</string>
-      <string>Reg</string>
+      <string>ALU</string>
     </entry>
     <entry>
       <string>romContent</string>
@@ -31,7 +31,7 @@
     </entry>
     <entry>
       <string>Width</string>
-      <int>4</int>
+      <int>6</int>
     </entry>
   </attributes>
   <visualElements>
@@ -105,44 +105,6 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>B</string>
-        </entry>
-        <entry>
-          <string>Bits</string>
-          <int>8</int>
-        </entry>
-        <entry>
-          <string>intFormat</string>
-          <intFormat>bin</intFormat>
-        </entry>
-      </elementAttributes>
-      <pos x="80" y="460"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Out</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>=</string>
-        </entry>
-      </elementAttributes>
-      <pos x="1340" y="-40"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Out</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>&gt;_A</string>
-        </entry>
-      </elementAttributes>
-      <pos x="1340" y="20"/>
-    </visualElement>
-    <visualElement>
-      <elementName>In</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
           <string>A</string>
         </entry>
         <entry>
@@ -155,6 +117,52 @@
         </entry>
       </elementAttributes>
       <pos x="80" y="320"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>O</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>8</int>
+        </entry>
+        <entry>
+          <string>intFormat</string>
+          <intFormat>bin</intFormat>
+        </entry>
+      </elementAttributes>
+      <pos x="1680" y="680"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>Zero</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1860" y="480"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>B</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>8</int>
+        </entry>
+        <entry>
+          <string>intFormat</string>
+          <intFormat>bin</intFormat>
+        </entry>
+      </elementAttributes>
+      <pos x="80" y="460"/>
     </visualElement>
     <visualElement>
       <elementName>In</elementName>
@@ -203,7 +211,7 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>A</string>
+          <string>R_0</string>
         </entry>
       </elementAttributes>
       <pos x="480" y="1440"/>
@@ -213,7 +221,7 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>B</string>
+          <string>R_1</string>
         </entry>
       </elementAttributes>
       <pos x="480" y="1480"/>
@@ -223,7 +231,7 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>C</string>
+          <string>R_2</string>
         </entry>
       </elementAttributes>
       <pos x="480" y="1520"/>
@@ -293,28 +301,20 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>O</string>
-        </entry>
-        <entry>
-          <string>Bits</string>
-          <int>8</int>
-        </entry>
-        <entry>
-          <string>intFormat</string>
-          <intFormat>bin</intFormat>
+          <string>C_out</string>
         </entry>
       </elementAttributes>
-      <pos x="1680" y="680"/>
+      <pos x="1680" y="860"/>
     </visualElement>
     <visualElement>
       <elementName>Out</elementName>
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>C_out</string>
+          <string>=</string>
         </entry>
       </elementAttributes>
-      <pos x="1680" y="860"/>
+      <pos x="1340" y="-40"/>
     </visualElement>
     <visualElement>
       <elementName>CPU_Z.dig</elementName>
@@ -326,10 +326,10 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>Zero</string>
+          <string>&gt;_A</string>
         </entry>
       </elementAttributes>
-      <pos x="1860" y="480"/>
+      <pos x="1340" y="20"/>
     </visualElement>
     <visualElement>
       <elementName>CPU_NOT.dig</elementName>
