@@ -31,7 +31,7 @@
     </entry>
     <entry>
       <string>Width</string>
-      <int>4</int>
+      <int>6</int>
     </entry>
   </attributes>
   <visualElements>
@@ -119,12 +119,12 @@
       <elementName>Splitter</elementName>
       <elementAttributes>
         <entry>
-          <string>Input Splitting</string>
-          <string>8</string>
-        </entry>
-        <entry>
           <string>splitterSpreading</string>
           <int>4</int>
+        </entry>
+        <entry>
+          <string>Input Splitting</string>
+          <string>8</string>
         </entry>
         <entry>
           <string>Output Splitting</string>
@@ -209,12 +209,12 @@
           <string>O</string>
         </entry>
         <entry>
-          <string>intFormat</string>
-          <intFormat>bin</intFormat>
-        </entry>
-        <entry>
           <string>Bits</string>
           <int>8</int>
+        </entry>
+        <entry>
+          <string>intFormat</string>
+          <intFormat>bin</intFormat>
         </entry>
       </elementAttributes>
       <pos x="1040" y="140"/>
