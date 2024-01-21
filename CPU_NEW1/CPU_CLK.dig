@@ -85,16 +85,6 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>Clk_e</string>
-        </entry>
-      </elementAttributes>
-      <pos x="1200" y="400"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Out</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
           <string>Clk_s</string>
         </entry>
       </elementAttributes>
@@ -109,6 +99,16 @@
         </entry>
       </elementAttributes>
       <pos x="1200" y="200"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>Clk_e</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1200" y="400"/>
     </visualElement>
     <visualElement>
       <elementName>Data</elementName>
