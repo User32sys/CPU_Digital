@@ -47,6 +47,10 @@
           <string>Label</string>
           <string>SA</string>
         </entry>
+        <entry>
+          <string>intFormat</string>
+          <intFormat>bin</intFormat>
+        </entry>
       </elementAttributes>
       <pos x="-220" y="0"/>
     </visualElement>
@@ -227,6 +231,10 @@
           <string>Label</string>
           <string>E</string>
         </entry>
+        <entry>
+          <string>intFormat</string>
+          <intFormat>bin</intFormat>
+        </entry>
       </elementAttributes>
       <pos x="-340" y="420"/>
     </visualElement>
@@ -364,11 +372,6 @@
       <elementName>CPU_REG_BYTE.dig</elementName>
       <elementAttributes/>
       <pos x="4920" y="560"/>
-    </visualElement>
-    <visualElement>
-      <elementName>CPU_REG_BYTE.dig</elementName>
-      <elementAttributes/>
-      <pos x="5180" y="560"/>
     </visualElement>
     <visualElement>
       <elementName>CPU_REG_BYTE.dig</elementName>
@@ -1569,6 +1572,11 @@
       <elementName>CPU_REG_BYTE.dig</elementName>
       <elementAttributes/>
       <pos x="5180" y="6260"/>
+    </visualElement>
+    <visualElement>
+      <elementName>CPU_REG_BYTE.dig</elementName>
+      <elementAttributes/>
+      <pos x="5180" y="560"/>
     </visualElement>
   </visualElements>
   <wires>

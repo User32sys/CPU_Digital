@@ -96,6 +96,10 @@
           <string>intFormat</string>
           <intFormat>bin</intFormat>
         </entry>
+        <entry>
+          <string>InDefault</string>
+          <value v="1" z="false"/>
+        </entry>
       </elementAttributes>
       <pos x="460" y="520"/>
     </visualElement>
@@ -113,6 +117,10 @@
         <entry>
           <string>intFormat</string>
           <intFormat>bin</intFormat>
+        </entry>
+        <entry>
+          <string>InDefault</string>
+          <value v="1" z="false"/>
         </entry>
       </elementAttributes>
       <pos x="720" y="520"/>

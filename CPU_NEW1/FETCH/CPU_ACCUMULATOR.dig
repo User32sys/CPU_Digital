@@ -48,12 +48,12 @@
           <string>I</string>
         </entry>
         <entry>
-          <string>intFormat</string>
-          <intFormat>bin</intFormat>
-        </entry>
-        <entry>
           <string>Bits</string>
           <int>8</int>
+        </entry>
+        <entry>
+          <string>intFormat</string>
+          <intFormat>bin</intFormat>
         </entry>
       </elementAttributes>
       <pos x="280" y="280"/>
@@ -62,12 +62,20 @@
       <elementName>In</elementName>
       <elementAttributes>
         <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+        <entry>
           <string>Label</string>
           <string>S</string>
         </entry>
         <entry>
-          <string>rotation</string>
-          <rotation rotation="1"/>
+          <string>intFormat</string>
+          <intFormat>bin</intFormat>
+        </entry>
+        <entry>
+          <string>InDefault</string>
+          <value v="1" z="false"/>
         </entry>
       </elementAttributes>
       <pos x="320" y="440"/>
