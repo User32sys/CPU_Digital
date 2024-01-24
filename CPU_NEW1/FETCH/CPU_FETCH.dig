@@ -257,6 +257,10 @@
       <elementName>Clock</elementName>
       <elementAttributes>
         <entry>
+          <string>runRealTime</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
           <string>Frequency</string>
           <int>2147483647</int>
         </entry>
@@ -446,11 +450,6 @@
       <pos x="1140" y="400"/>
     </visualElement>
     <visualElement>
-      <elementName>RESET.dig</elementName>
-      <elementAttributes/>
-      <pos x="1280" y="1340"/>
-    </visualElement>
-    <visualElement>
       <elementName>In</elementName>
       <elementAttributes/>
       <pos x="1220" y="1340"/>
@@ -459,6 +458,11 @@
       <elementName>RESET1.dig</elementName>
       <elementAttributes/>
       <pos x="1160" y="420"/>
+    </visualElement>
+    <visualElement>
+      <elementName>RESET8.dig</elementName>
+      <elementAttributes/>
+      <pos x="1280" y="1340"/>
     </visualElement>
   </visualElements>
   <wires>
